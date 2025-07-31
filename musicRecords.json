@@ -1,0 +1,44 @@
+{
+  "musicRecord1": {
+    "title": "Disco1",
+    "artist": "Artista1",
+    "cover": "imgs/0x1900-000000-80-0-0-2.jpg",
+    "year": 2000,
+    "genre": "pop"
+  },
+  "musicRecord2": {
+    "title": "Disco2",
+    "artist": "Artista2",
+    "cover": "imgs/0x1900-000000-80-0-0.jpg",
+    "year": 2001,
+    "genre": "rock"
+  },
+  "musicRecord3": {
+    "title": "Disco3",
+    "artist": "Artista3",
+    "cover": "imgs/814htMhuuML._UF1000,1000_QL80_.jpg",
+    "year": 2002,
+    "genre": "r&b"
+  },
+  "musicRecord4": {
+    "title": "Disco4",
+    "artist": "Artista4",
+    "cover": "imgs/1522743445924-1522379386_the-weeknd.jpeg.webp",
+    "year": 2003,
+    "genre": "indie"
+  },
+  "musicRecord5": {
+    "title": "Disco5",
+    "artist": "Artista5",
+    "cover": "imgs/FMDAWNMOT.jpeg",
+    "year": 2004,
+    "genre": "classical"
+  },
+  "musicRecor6": {
+    "title": "Disco6",
+    "artist": "Artista6",
+    "cover": "imgs/The_Weeknd_-_Beauty_Behind_the_Madness.png",
+    "year": 2005,
+    "genre": "country"
+  }
+}
