@@ -1,3 +1,7 @@
+<?php
+require_once './server.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,20 +13,11 @@
 </head>
 
 <body>
-    <?php
-    $json_string = file_get_contents('./musicRecords.json');
-    $musicRecords = json_decode($json_string, true);
-    // echo "<pre>";
-    // var_dump($musicRecords);
-    // echo "</pre>";
-    ?>
-
     <div class="container">
         <h1 class="text-center my-3">Dischi</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <?php
             foreach ($musicRecords as $currentMusicRecord) {
-
                 echo "<div class='col'> 
                         <div class='card h-100'>
                         <img src='{$currentMusicRecord['cover']}' class='card-img-top' alt='...'>
